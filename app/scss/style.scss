@@ -1,0 +1,231 @@
+@import "vars";
+@import "global";
+@import "fonts";
+
+
+.header {
+  display: flex;
+  height: 60px;
+  background-color: $header-grey;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+body {
+  font-family: 'Source Sans Pro';
+  font-weight: normal;
+
+}
+
+.menu-list {
+  display: flex;
+  color: #fff;
+
+  li + li {
+    margin-left: 147px;
+  }
+}
+
+.menu-list a {
+  color: #fff;
+
+}
+
+.logo {
+  background: url("../img/logo.svg") no-repeat;
+  height: 45px;
+  width: 144px;
+  margin-left: 13px;
+}
+
+.basket {
+  background: url("../img/basket-icon.svg") no-repeat;
+  width: 25px;
+  height: 25px;
+}
+
+.products-menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 5px 0;
+  color: $header-grey;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.aside-main-location {
+  margin-top: 50px;
+  display: flex;
+}
+
+.private-info-title,
+.orders-title {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  margin: 15px 0;
+}
+
+.private-info-list,
+.orders-list {
+  font-size: 16px;
+  line-height: 20px;
+
+  li + li {
+    margin-top: 16px;
+  }
+}
+
+.orders-purchased-buttons {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  margin-top: 18px;
+}
+
+.purchased {
+  margin-left: 95px;
+}
+
+.orders-seletcting {
+  margin-top: 15px;
+  width: 308px;
+  height: 41px;
+}
+
+.orders {
+  margin-top: 50px;
+}
+
+.order-head {
+  background-color: $order-head-grey;
+  border: transparent solid 15px;
+  position: relative;
+}
+
+.order-from {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 8px;
+}
+
+.order-number {
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.status-support {
+  display: flex;
+  align-items: center;
+}
+
+.order-status {
+  padding: 5px 15px;
+  background-color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.order-status-completed {
+  padding: 5px 15px;
+  background-color: $completed-green;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.sum-total {
+  position: absolute;
+  right: 0;
+  top: 20%;
+  text-align: right;
+}
+
+.sum {
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.total {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.support:before {
+  content: url("../img/support-icon.svg");
+  margin-left: 15px;
+  margin-right: 5px;
+  width: 5px;
+  height: 5px;
+}
+
+.support {
+}
+
+.order-info {
+  background-color: $order-info-grey;
+  border: transparent solid 15px;
+  position: relative;
+
+}
+
+.expected-delivery-date-title,
+.curier-delievery,
+.comment-title,
+.recipient-title {
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 10px;
+}
+
+.expected-delivery-date,
+.address,
+.comment,
+.recipient,
+.recipient-phone {
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.ordered {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+.track {
+  color: $violet;
+  background-color: $light-violet;
+  padding: 5px 30px;
+  font-size: 18px;
+  line-height: 23px;
+  position: absolute;
+  right: 0;
+  top: 40%;
+  font-weight: bold;
+}
+.one-of-the-ordered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 25%;
+
+}
+.footer-columns {
+  background-color: rgba(31,31,31,0.85);
+  color: #ffffff;
+  display: flex;
+}

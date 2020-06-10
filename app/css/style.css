@@ -1,0 +1,16 @@
+body {
+  background-color: blue;
+}
+
+.test {
+  background-color: red;
+}
+
+.test:hover {
+  background-color: #black;
+  margin: 0;
+}
+
+box {
+  text-align: center;
+}
