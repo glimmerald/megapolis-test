@@ -25,6 +25,7 @@ body {
 
   li + li {
     margin-left: 147px;
+    white-space: nowrap;
   }
 }
 
@@ -39,11 +40,23 @@ body {
   width: 144px;
   margin-left: 13px;
 }
-
-.basket {
-  background: url("../img/basket-icon.svg") no-repeat;
-  width: 25px;
-  height: 25px;
+.cart {
+  position: relative;
+  margin-left: 147px;
+  margin-right: 50px;
+}
+.cart-circle {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  right: -10px;
+  top: -5px;
+  border-radius: 50%;
+  background: $violet;
+  color: #fff;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
 }
 
 .products-menu {
@@ -75,13 +88,14 @@ body {
   font-size: 18px;
   line-height: 23px;
   margin: 15px 0;
+  white-space: nowrap;
 }
 
 .private-info-list,
 .orders-list {
   font-size: 16px;
   line-height: 20px;
-
+  white-space: nowrap;
   li + li {
     margin-top: 16px;
   }
@@ -228,4 +242,27 @@ body {
   background-color: rgba(31,31,31,0.85);
   color: #ffffff;
   display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.footer-column a{
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 16px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.footer-logo-small-socials {
+  height: 130px;
+  background-color: $header-grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+.footer-social-inst {
+  background: url(../img/social-instagram-icon.svg) no-repeat;
+  width: 40px;
+  height: 40px;
 }
