@@ -42,3 +42,22 @@
   align-items: center;
   flex-basis: 25%;
 }
+.purchased-order-number {
+  position: absolute;
+  top: 10px;
+  left: 27.5%;
+  font-size: 14px;
+  line-height: 18px;
+  color: $order-number-grey;
+}
+.in-cart-btn {
+  color: $violet;
+  background-color: $light-violet;
+  padding: 8px 20px;
+  font-size: 18px;
+  line-height: 23px;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  font-weight: bold;
+}
