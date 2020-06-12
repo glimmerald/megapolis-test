@@ -1,0 +1,73 @@
+
+
+.repeat-order {
+  color: $violet;
+  background-color: $light-violet;
+  padding: 8px 30px;
+  font-size: 18px;
+  line-height: 23px;
+  position: absolute;
+  right: 0;
+  top: 40%;
+  font-weight: bold;
+}
+
+
+.goods-list {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 100px;
+}
+.one-of-the-purchased {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 2px $border-grey;
+  margin: 40px 0 0 0;
+}
+.one-of-the-purchased img{
+  margin-bottom: 15px;
+}
+.product-name {
+  font-size: 16px;
+  line-height: 20px;
+  max-width: 240px;
+}
+.amount {
+  font-size: 16px;
+  line-height: 20px;
+}
+.coast {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+.calculations {
+  position: absolute;
+  right: 5%;
+  top: 8%;
+  display: flex;
+  flex-direction: column;
+  max-width: 280px;
+}
+.calculations-row-1,
+.calculations-row-2,
+.calculations-row-3 {
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+  margin-bottom: 16px;
+}
+
+.calculations-row-1,
+.calculations-row-2 {
+  font-size: 16px;
+  line-height: 20px;
+}
+.calculations-row-3 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+}
